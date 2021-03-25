@@ -1,0 +1,117 @@
+/* 
+    CATATAN.
+    -Jika hanya Tag, dapat langsung ditulis.
+    -Jika Class, Diawali dengan titik.
+    -Jika ID, Perlu tanda pagar untuk mengawalinya.
+*/
+
+body{
+    position: relative;
+    background : url(../bck.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+main{
+    margin-left: 220px;
+    min-height : 630px;
+    background-color: rgba(250, 242, 242, 0.253);
+    
+}
+nav{
+    position: fixed;
+    float: left;
+    width: 15%;
+    background: rgb(0, 0, 0);
+    min-height : 640px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 12px;
+    margin-top: 0px;
+}
+.awal{
+    display: inline-flex;
+    width: 100%;
+    background: rgba(241, 236, 236, 0.281);
+    font-size: 20;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    height: 90px;
+    transition: height 1s;
+    border: 1px solid rgb(0, 0, 0);
+}
+.awal:hover{
+    background: rgba(255, 252, 252, 0.226);
+    height : 130px;
+}
+article{
+    border: 5px solid black;
+    height: 160px;
+    float: left;
+    width: 40%;
+    margin-left : 30px;
+    margin-top: 30px;
+
+}
+.article{
+    text-indent: 30px;
+    word-spacing: 1.5;
+}
+.logout{
+    margin-top :300px;
+}
+footer{
+    float: right;
+}
+h1{
+    color: hsla(0, 6%, 6%, 0.979)
+}
+/* halaman data */
+
+a{
+    text-decoration: none;
+    display: inline-flex;
+    color : rgb(43, 4, 80)
+}
+#hal{
+    font-weight: bold;
+    color: blue;
+}
+#p{
+    float: right;
+    position: relative;
+    left: -50%; /* or right 50% */
+    text-align: left;;
+}
+#pag{
+    float: right;
+    
+}
+#pa{
+    float: left;
+    
+}
+/* Add data */
+.form1 input{
+    border-radius: 20px;
+    width: 300px;
+    margin-left: 10px;
+    
+}
+#button{
+    margin-left: 10px;   
+}
+
+
+/* Search Bar */
+#caris{
+    width :93%;
+    height: 30px;
+    border-radius: 25px;
+}
+#sub{
+    height: 30px;
+    width: 60px;
+    
+}
