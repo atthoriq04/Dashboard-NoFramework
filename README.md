@@ -4,10 +4,10 @@ DASHBOARD
 
 
 Template Sistem Pendataan Dengan Fitur
--Input
--Edit
--Delete
--Search
+- Input
+- Edit
+- Delete
+- Search
 
 
 
